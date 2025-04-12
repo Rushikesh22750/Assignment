@@ -14,7 +14,7 @@ This is a ROS package for object detection, tracking, and visualization using YO
 |------------------------------|--------------------------------------------------------|
 | `/camera/color/image_raw`    | RGB images from RealSense camera             |
 | `/processed_image`           | Preprocessed Images               |
-| `/object_detection`          | YOLO detections    |
+| `/object_detection`          | Yolo detections    |
 | `/object_tracking`           | Kalman filter tracking data        |
 | `/visualization/image`       | Annotated outputs with detection and tracking overlays |
 
@@ -24,16 +24,9 @@ This is a ROS package for object detection, tracking, and visualization using YO
 - **ROS Packages:**
   - `roscpp`
   - `rospy`
-  - `std_msgs`
-  - `sensor_msgs`
-  - `message_generation`
-  - `message_runtime`
-  - `cv_bridge`
-  - `image_transport`
   - `OpenCV (C++)`
-  - Python 3
-  - NumPy
-  - `ONNXRuntime (for YOLO model inference)`
+  - `NumPy`
+  - `ONNXRuntime`
 
 **Intel RealSense ROS Driver** ([realsense-ros](https://github.com/IntelRealSense/realsense-ros))
 ```bash
