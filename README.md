@@ -16,7 +16,7 @@ This is a ROS package for object detection, tracking, and visualization using YO
 | `/processed_image`           | Preprocessed Images               |
 | `/object_detection`          | YOLO detections    |
 | `/object_tracking`           | Kalman filter tracking data        |
-| `/visualization/image`       | Annotated outputs |
+| `/visualization/image`       | Annotated outputs with detection and tracking overlays |
 
 
 ## Dependencies
