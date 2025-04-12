@@ -86,7 +86,7 @@ rosrun swaayatt_rushikesh visualization_node
 ### 📁 Step 1: Clone the Repository
 
 ```bash
-cd ~/swaayatt_ws/src
+cd ~/catkin_ws/src
 git clone https://github.com/Rushikesh22750/Assignment.git swaayatt_rushikesh
 ```
 
