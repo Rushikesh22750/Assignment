@@ -8,7 +8,7 @@ This ROS package implements a complete pipeline for object detection, tracking, 
 3. **Object Tracking** using Kalman Filter (C++)
 4. **Visualization** node using OpenCV (C++)
 
-## 📡 ROS Topics
+##  ROS Topics
 
 | **Topic**                     | **Description**                                        |
 |------------------------------|--------------------------------------------------------|
