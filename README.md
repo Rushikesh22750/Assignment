@@ -1,31 +1,29 @@
-# Swaayatt_Rushikesh
+# swaayatt_rushikesh
 
 ## Overview
-This ROS package demonstrates a **real-time object detection and tracking pipeline** using:
-1. **Image Subscriber & Pre-processing (C++)**  
-2. **YOLOv5 Object Detection (Python, ONNX)**  
-3. **Object Tracking (Kalman Filter, C++)**  
-4. **Visualization Node (C++)** for overlaying detections and trajectories on images.  
+This ROS package implements a complete pipeline for object detection, tracking, and visualization. It includes the following nodes:
 
----
+1. **Image Subscriber** (C++)
+2. **Object Detection** using YOLOv5s (Python/ONNXRuntime)
+3. **Object Tracking** using Kalman Filter (C++)
+4. **Visualization** node using OpenCV (C++)
 
 ## Dependencies
+- **ROS Version:** Noetic
+- **ROS Packages:**
+  - `roscpp`
+  - `rospy`
+  - `std_msgs`
+  - `sensor_msgs`
+  - `message_generation`
+  - `message_runtime`
+  - `cv_bridge`
+  - `image_transport`
+- **Other Libraries:**
+  - OpenCV (C++)
+  - Python 3
+  - NumPy
+  - ONNXRuntime (for YOLO model inference)
+  - Intel RealSense ROS Driver ([realsense-ros](https://github.com/IntelRealSense/realsense-ros))
 
-1. **ROS Noetic** with:
-   - `roscpp`, `rospy`
-   - `sensor_msgs`, `std_msgs`
-   - `cv_bridge`, `image_transport`
-   - `message_generation`, `message_runtime`
-2. **OpenCV** (for visualization and Kalman filtering in C++).
-3. **Python libraries**:
-   - `onnxruntime` (for YOLO inference):  
-     ```bash
-     pip3 install onnxruntime
-     ```
-   - `numpy`:  
-     ```bash
-     pip3 install numpy
-     ```
-4. **Camera driver** (optional). If you’re using an Intel RealSense camera:
-   ```bash
-   sudo apt-get install ros-noetic-realsense2-camera
+## Package Structure
