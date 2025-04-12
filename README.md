@@ -37,17 +37,9 @@ This is a ROS package for object detection, tracking, and visualization using YO
   - ONNXRuntime (for YOLO model inference)
   - Intel RealSense ROS Driver ([realsense-ros](https://github.com/IntelRealSense/realsense-ros))
  
-  - ```bash
+  ```bash
 sudo apt-get install ros-noetic-realsense2-camera
 ```
-
-
-
----
-
-
-
-
 ## 🔧 Installation and Setup
 
 Step 1: Clone the Repository
