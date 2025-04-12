@@ -8,6 +8,17 @@ This ROS package implements a complete pipeline for object detection, tracking, 
 3. **Object Tracking** using Kalman Filter (C++)
 4. **Visualization** node using OpenCV (C++)
 
+## 📡 ROS Topics
+
+| **Topic**                     | **Description**                                        |
+|------------------------------|--------------------------------------------------------|
+| `/camera/color/image_raw`    | Original RGB images from RealSense camera             |
+| `/processed_image`           | Preprocessed images (converted to BGR)                |
+| `/object_detection`          | YOLO detections (class labels, confidence, boxes)     |
+| `/object_tracking`           | Kalman-filtered tracking data with object IDs         |
+| `/visualization/image`       | Annotated output with detection and tracking overlays |
+
+
 ## Dependencies
 - **ROS Version:** Noetic
 - **ROS Packages:**
