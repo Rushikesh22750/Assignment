@@ -30,8 +30,7 @@ This is a ROS package for object detection, tracking, and visualization using YO
   - `message_runtime`
   - `cv_bridge`
   - `image_transport`
-- **Other Libraries:**
-  - OpenCV (C++)
+  - `OpenCV (C++)`
   - Python 3
   - NumPy
   - `ONNXRuntime (for YOLO model inference)`
