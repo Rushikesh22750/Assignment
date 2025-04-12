@@ -24,7 +24,7 @@ This is a ROS package for object detection, tracking, and visualization using YO
 - **ROS Packages:**
   - `roscpp`
   - `rospy`
-  - `OpenCV (C++)`
+  - `OpenCV`
   - `NumPy`
   - `ONNXRuntime`
 
