@@ -4,7 +4,7 @@
 This is a ROS package for object detection, tracking, and visualization using YOLOv5s and Kalman Filter. It includes the following nodes:
 
 1. **Image Subscriber** taking input from Realsense Camera (C++)
-2. **Object Detection** using YOLOv5s (Python/ONNXRuntime)
+2. **Object Detection** using YOLOv5s (Python)
 3. **Object Tracking** using Kalman Filter (C++)
 4. **Visualization** node using OpenCV (C++)
 
