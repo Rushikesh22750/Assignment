@@ -21,7 +21,7 @@ This is a ROS package for object detection, tracking, and visualization using YO
 
 ## Dependencies
 - **ROS Version:** Noetic
-- **ROS Packages:**
+- **Packages:**
   - `roscpp`
   - `rospy`
   - `OpenCV`
