@@ -1,0 +1,17 @@
+<launch>
+    <!-- Launch Realsense Camera -->
+    <include file="$(find realsense2_camera)/launch/rs_camera.launch"/>
+
+    <!-- Launch image subscriber node -->
+    <node pkg="swaayatt_rushikesh" type="image_subscriber" name="image_subscriber" output="screen" />
+
+    <!-- Launch YOLO detector node (Python) -->
+    <node pkg="swaayatt_rushikesh" type="yolo_detector.py" name="yolo_detector" output="screen" />
+
+    <!-- Launch object tracker node -->
+    <node pkg="swaayatt_rushikesh" type="object_tracker" name="object_tracker" output="screen" />
+
+    <!-- Launch visualization node -->
+    <node pkg="swaayatt_rushikesh" type="visualization_node" name="visualization_node" output="screen" />
+</launch>
+
