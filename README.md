@@ -1,4 +1,4 @@
-# swaayatt_rushikesh
+# Swaayatt Assignment
 
 ## Overview
 This ROS package implements a complete pipeline for object detection, tracking, and visualization. It includes the following nodes:
