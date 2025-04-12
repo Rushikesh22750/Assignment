@@ -79,7 +79,7 @@ roslaunch realsense2_camera rs_camera.launch
 
 2. Image Subscriber Node
 ```bash
-rosrun swaayatt_rushikesh image_processor
+rosrun swaayatt_rushikesh image_subscriber
 ```
 
 3. YOLO Object Detection Node
