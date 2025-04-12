@@ -41,21 +41,7 @@ This is a ROS package for object detection, tracking, and visualization using YO
 
 ---
 
-## 🔧 Installation and Setup
 
-```bash
-# Step 1: Clone the Repository
-cd ~/swaayatt_ws/src
-git clone https://github.com/Rushikesh22750/Assignment.git swaayatt_rushikesh
-
-# Step 2: Install Dependencies
-cd ~/swaayatt_ws
-rosdep install --from-paths src --ignore-src -r -y
-pip3 install numpy onnxruntime
-
-# Step 3: Build the Workspace
-catkin_make
-source devel/setup.bash
 
 
 ## 🔧 Installation and Setup
