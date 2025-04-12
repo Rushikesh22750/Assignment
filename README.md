@@ -1,4 +1,4 @@
-# swaayatt_Rushikesh
+# Swaayatt_Rushikesh
 
 ## Overview
 This ROS package demonstrates a **real-time object detection and tracking pipeline** using:
