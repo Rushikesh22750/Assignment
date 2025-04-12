@@ -57,33 +57,10 @@ pip3 install numpy onnxruntime
 catkin_make
 source devel/setup.bash
 
-# 🚀 Running the Nodes
-
-# Run Full Pipeline (Recommended)
-roslaunch swaayatt_rushikesh pipeline.launch
-
-# Run Individual Nodes (for Debugging)
-
-# 1. RealSense Camera Node
-roslaunch realsense2_camera rs_camera.launch
-
-# 2. Image Subscriber & Pre-processing Node
-rosrun swaayatt_rushikesh image_processor
-
-# 3. YOLO Object Detection Node
-rosrun swaayatt_rushikesh yolo_detector.py
-
-# 4. Object Tracking Node
-rosrun swaayatt_rushikesh object_tracker
-
-# 5. Visualization Node
-rosrun swaayatt_rushikesh visualization_node
-```
-
 
 ## 🔧 Installation and Setup
 
-### 📁 Step 1: Clone the Repository
+Step 1: Clone the Repository
 
 ```bash
 cd ~/catkin_ws/src
@@ -103,7 +80,7 @@ Step 3: Build the Workspace
 catkin_make
 source devel/setup.bash
 ```
-Run Full Pipeline 
+Run Full Pipeline with ROS launch
 ```bash
 roslaunch swaayatt_rushikesh pipeline.launch
 
