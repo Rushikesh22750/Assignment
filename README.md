@@ -80,3 +80,17 @@ rosrun swaayatt_rushikesh object_tracker
 rosrun swaayatt_rushikesh visualization_node
 ```
 
+
+## 🔧 Installation and Setup
+
+### 📁 Step 1: Clone the Repository
+
+```bash
+cd ~/swaayatt_ws/src
+git clone https://github.com/Rushikesh22750/Assignment.git swaayatt_rushikesh
+```
+```bash
+cd ~/swaayatt_ws
+rosdep install --from-paths src --ignore-src -r -y
+pip3 install numpy onnxruntime
+```
