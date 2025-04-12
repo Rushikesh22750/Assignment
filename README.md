@@ -12,11 +12,11 @@ This is a ROS package for object detection, tracking, and visualization using YO
 
 | **Topic**                     | **Description**                                        |
 |------------------------------|--------------------------------------------------------|
-| `/camera/color/image_raw`    | Original RGB images from RealSense camera             |
-| `/processed_image`           | Preprocessed images (converted to BGR)                |
-| `/object_detection`          | YOLO detections (class labels, confidence, boxes)     |
-| `/object_tracking`           | Kalman-filtered tracking data with object IDs         |
-| `/visualization/image`       | Annotated output with detection and tracking overlays |
+| `/camera/color/image_raw`    | RGB images from RealSense camera             |
+| `/processed_image`           | Preprocessed Images               |
+| `/object_detection`          | YOLO detections    |
+| `/object_tracking`           | Kalman-filtered tracking data        |
+| `/visualization/image`       | Annotated outputs |
 
 
 ## Dependencies
