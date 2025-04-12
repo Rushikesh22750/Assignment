@@ -26,4 +26,10 @@ This ROS package implements a complete pipeline for object detection, tracking, 
   - ONNXRuntime (for YOLO model inference)
   - Intel RealSense ROS Driver ([realsense-ros](https://github.com/IntelRealSense/realsense-ros))
 
-## Package Structure
+
+## Installation and Setup
+
+### Step 1: Clone the repository into your ROS workspace:
+```bash
+cd ~/swaayatt_ws/src
+git clone https://github.com/Rushikesh22750/Assignment.git swaayatt_rushikesh
