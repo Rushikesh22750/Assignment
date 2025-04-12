@@ -97,3 +97,46 @@ cd ~/swaayatt_ws
 rosdep install --from-paths src --ignore-src -r -y
 pip3 install numpy onnxruntime
 ```
+
+Step 3: Build the Workspace
+```bash
+catkin_make
+source devel/setup.bash
+```
+Run Full Pipeline 
+```bash
+roslaunch swaayatt_rushikesh pipeline.launch
+
+```
+Run Individual Nodes
+1. RealSense Camera Node
+
+```bash
+roslaunch realsense2_camera rs_camera.launch
+
+
+```
+
+2. Image Subscriber Node
+```bash
+rosrun swaayatt_rushikesh image_processor
+
+
+```
+
+3. YOLO Object Detection Node
+```bash
+rosrun swaayatt_rushikesh yolo_detector.py
+
+```
+
+4. Object Tracking Node
+```bash
+rosrun swaayatt_rushikesh object_tracker
+```
+
+5. Visualization Node
+```bash
+rosrun swaayatt_rushikesh visualization_node
+
+```
