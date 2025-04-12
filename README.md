@@ -3,7 +3,7 @@
 ## Overview
 This ROS package implements a complete pipeline for object detection, tracking, and visualization. It includes the following nodes:
 
-1. **Image Subscriber** from Realsense Camera (C++)
+1. **Image Subscriber** taking input from Realsense Camera (C++)
 2. **Object Detection** using YOLOv5s (Python/ONNXRuntime)
 3. **Object Tracking** using Kalman Filter (C++)
 4. **Visualization** node using OpenCV (C++)
