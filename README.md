@@ -89,6 +89,9 @@ rosrun swaayatt_rushikesh visualization_node
 cd ~/swaayatt_ws/src
 git clone https://github.com/Rushikesh22750/Assignment.git swaayatt_rushikesh
 ```
+
+Step 2: Install Dependencies
+
 ```bash
 cd ~/swaayatt_ws
 rosdep install --from-paths src --ignore-src -r -y
